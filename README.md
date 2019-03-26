@@ -20,6 +20,8 @@
 - git
 - npm
 - node
+- make
+- docker
 
 部署操作：
 
@@ -28,13 +30,25 @@
 git clone git@github.com:ttop5/douban-status-push-to-wechat.git
 
 2. 修改配置
-修改 `douban.js` 文件中的 `USRID` 和 `SCKEY` 的值
+export USERID=xxxxxx
+export SCKEY=xxxxxx
 
 3. 安装依赖
 npm install
 
 4. 启动服务
-nohup node douban.js > log &
+nohup npm start > log &
+
+```
+
+docker支持:
+
+```
+1. 构建
+make build
+
+2. 启动服务
+docker run --rm -ti -e USERID=<USERID> -e SCKEY=<SCKEY> douban-status-push-to-wechat:<tag>
 
 ```
 
