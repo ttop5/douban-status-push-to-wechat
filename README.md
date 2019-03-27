@@ -6,7 +6,7 @@
 
 #### 1. 获取豆瓣用户的数字 ID
 
-目前只支持整数型 id，字母型的 id，可以通过头像图片链接来找到其整数型 id，图片命名规则ul[uid]-*.jpg
+目前只支持整数型 id，字母型的 id 可以通过头像图片链接来找到其整数型 id，图片命名规则ul[uid]-*.jpg
 
 #### 2. Server 酱申请 SCKEY
 
@@ -41,7 +41,7 @@ nohup npm start > log &
 
 ```
 
-docker支持:
+Docker 支持：
 
 ```
 1. 构建

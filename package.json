@@ -1,7 +1,7 @@
 {
     "name": "douban-status-push-to-wechat",
     "version": "1.0.0",
-    "desc": "",
+    "desc": "将豆瓣的某个用户的动态实时推送到微信",
     "main": "index.js",
     "scripts": {
         "start": "node src/douban.js",
