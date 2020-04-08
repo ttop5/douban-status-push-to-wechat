@@ -10,7 +10,7 @@
     "author": "ttop5",
     "license": "MIT",
     "dependencies": {
-        "axios": "^0.18.0",
+        "axios": "^0.18.1",
         "convict": "^4.3.1"
     }
 }
