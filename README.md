@@ -31,7 +31,7 @@ git clone git@github.com:ttop5/douban-status-push-to-wechat.git
 
 2. 修改配置
 export USERID=xxxxxx
-export SCKEY=xxxxxx
+export SCKEY='xxxxxx'
 
 3. 安装依赖
 npm install
