@@ -11,6 +11,6 @@
     "license": "MIT",
     "dependencies": {
         "axios": "^0.18.0",
-        "convict": "^4.3.1"
+        "convict": "^6.2.3"
     }
 }
